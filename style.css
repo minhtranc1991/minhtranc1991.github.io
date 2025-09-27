@@ -1,0 +1,52 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background: #0f172a;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header .contact {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+header .contact li {
+  display: inline;
+  margin: 0 10px;
+}
+
+section {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+footer {
+  background: #f1f5f9;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+}
