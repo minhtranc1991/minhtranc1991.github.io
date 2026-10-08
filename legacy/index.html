@@ -1,0 +1,98 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Minh Tran Cong - Quantitative Trader</title>
+  <meta name="description" content="Quantitative trader: crypto market making, inventory hedging, systematic strategies and quant education."/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Minh Tran Cong</h1>
+    <p>Quantitative Trader | Crypto Market Making &amp; Systematic Strategies</p>
+    <ul class="contact">
+      <li>📧 minh.tranc.1991@gmail.com</li>
+      <li>🌍 Vietnam</li>
+      <li>🔗 <a href="https://github.com/minhtranc1991" target="_blank" rel="noopener">github/minhtranc1991</a></li>
+      <!-- TODO: add LinkedIn + CryptoThreads.blog links -->
+    </ul>
+  </header>
+
+  <section>
+    <h2>Objective</h2>
+    <p><strong>Short-Term:</strong> Enhance quantitative trading strategies by applying algorithmic techniques and robust backtesting.</p>
+    <p><strong>Long-Term:</strong> Lead the development of trading systems to deliver sustainable portfolio growth and alpha generation.</p>
+  </section>
+
+  <section>
+    <h2>Work Experience</h2>
+    <article>
+      <h3>The20 <span>2024 - Present</span></h3>
+      <p><strong>Quantitative Trader</strong></p>
+      <ul>
+        <li>Design and implement algorithmic trading strategies for crypto spot and futures markets.</li>
+        <li>Develop and maintain market making systems across CEX (Binance, OKX, Bybit, BingX,...).</li>
+        <li>Build models for price discovery, optimal quoting, spread management, and inventory risk control.</li>
+        <li>Apply order flow analysis, latency arbitrage, and cross-exchange liquidity mirroring.</li>
+        <li>Refactored the market-making codebase into a pluggable strategy architecture (abstract base class, shared Redis/order/logging utilities, config manager).</li>
+        <li>Implemented spot/perpetual inventory management: target inventory ratio, skew tolerance and synthetic-base hedging.</li>
+        <li>Trained interns and the quant team (market making, quant trading curriculum); published research on CryptoThreads.blog.</li>
+        <!-- TODO: add measurable results (volume, spread, uptime, PnL/Sharpe, #exchanges/pairs) -->
+      </ul>
+    </article>
+    <article>
+      <h3>Freelancer <span>2024 - Present</span></h3>
+      <p><strong>Quantitative Trader</strong></p>
+      <ul>
+        <li>Developed & deployed strategies on MT4/5 and TradingView (MQL, Pine Script).</li>
+        <li>Backtested strategies for Sharpe ratio optimization & drawdown reduction.</li>
+        <li>Built Python backtesting engine (mean-reversion, trend-following, breakout).</li>
+      </ul>
+    </article>
+  </section>
+
+  <section>
+    <h2>Selected Projects</h2>
+    <article>
+      <h3>Market-Making Engine</h3>
+      <p>Multi-threaded engine for CEX spot and perpetuals. Strategies share a common interface; Redis holds live state; configurable quoting (fixed spread, percentage, multi-level grid) with order refresh, cooldown and max-age controls.</p>
+      <p><em>Stack: Python, Redis, NoSQL.</em> <!-- TODO: GitHub link (public-safe version) --></p>
+    </article>
+    <article>
+      <h3>Synthetic Base Hedging</h3>
+      <p>Capital split across arbitrage, active quoting and a synthetic base position, with delta-neutral perp hedging to control inventory risk.</p>
+    </article>
+    <article>
+      <h3>Python Backtesting Engine</h3>
+      <p>Mean-reversion, trend-following and breakout strategies evaluated on Sharpe and drawdown. <!-- TODO: link, add costs/walk-forward notes --></p>
+    </article>
+    <article>
+      <h3>Quant Education</h3>
+      <p>Designed a 3-stage systematic-trading curriculum (foundations, coding &amp; backtesting, portfolio construction) and a commodity-markets course; also AI training material for finance sales teams.</p>
+    </article>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>Quant Finance: Market Making, Arbitrage, HFT, Risk Management</li>
+      <li>Programming: Python, Java, MQL4/5, Pine Script, Redis</li>
+      <li>Data Analysis: pandas, Plotly, Matplotlib, Streamlit</li>
+      <li>Crypto: Perpetual futures, CEX APIs, on-chain &amp; market research</li>
+      <li>Teaching: Curriculum design, intern training</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <p><strong>CodeGym JSC</strong> (2020) – Full-Stack Java Developer</p>
+    <p><strong>KPI Ukraine</strong> (2009–2015) – Software Engineering</p>
+  </section>
+
+  <footer>
+    <p>© Minh Tran Cong | Built with GitHub Pages</p>
+  </footer>
+</body>
+</html>
