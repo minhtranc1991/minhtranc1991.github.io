@@ -30,19 +30,19 @@
   color: #ffffff;
   cursor: pointer;
   overflow: hidden;
-  box-shadow: 0 10px 25px -5px rgba(145, 94, 255, 0.35);
+  box-shadow: 0 10px 25px -5px rgba(185, 151, 78, 0.35);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .cta-primary:hover {
-  box-shadow: 0 14px 30px -5px rgba(145, 94, 255, 0.55);
+  box-shadow: 0 14px 30px -5px rgba(185, 151, 78, 0.55);
 }
 
 /* Animated gradient background layer */
 .cta-primary-bg {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to right, #915eff, #804dee, #915eff);
+  background: linear-gradient(to right, #B9974E, #8F7338, #B9974E);
   background-size: 200% 100%;
   animation: cta-gradient-shift 3s ease infinite;
   border-radius: inherit;
@@ -53,7 +53,7 @@
   position: absolute;
   inset: 0;
   border-radius: inherit;
-  border: 2px solid #915eff;
+  border: 2px solid #B9974E;
   animation: cta-pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   pointer-events: none;
 }
@@ -84,8 +84,8 @@
   padding: 0.75rem 1rem;
   font-size: 0.875rem;   /* 14px */
   font-weight: 500;
-  color: #aaa6c3;
-  border: 1px solid rgba(170, 166, 195, 0.3);
+  color: #98A89F;
+  border: 1px solid rgba(152, 168, 159, 0.3);
   border-radius: 0.5rem;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
@@ -97,8 +97,8 @@
 
 .cta-secondary:hover {
   color: #ffffff;
-  border-color: #915eff;
-  background-color: rgba(145, 94, 255, 0.1);
+  border-color: #B9974E;
+  background-color: rgba(185, 151, 78, 0.1);
 }
 
 .cta-icon-download {

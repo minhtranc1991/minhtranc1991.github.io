@@ -48,12 +48,12 @@ const ScrollToTop = () => {
           whileTap={{ scale: 0.9 }}
         >
           {/* Progress Ring */}
-          <svg className="absolute w-[80px] h-[80px] -rotate-90 pointer-events-none drop-shadow-[0_0_10px_rgba(145,94,255,0.5)]" viewBox="0 0 100 100">
+          <svg className="absolute w-[80px] h-[80px] -rotate-90 pointer-events-none drop-shadow-[0_0_10px_rgba(185, 151, 78,0.5)]" viewBox="0 0 100 100">
             <circle
               cx="50"
               cy="50"
               r="48"
-              stroke="#1d1836"
+              stroke="#11221C"
               strokeWidth="5"
               fill="none"
               className="opacity-50"
@@ -70,15 +70,15 @@ const ScrollToTop = () => {
             />
             <defs>
               <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stopColor="#915EFF" />
+                <stop offset="0%" stopColor="#B9974E" />
                 <stop offset="50%" stopColor="#22d04eff" />
-                <stop offset="100%" stopColor="#FF6B9D" />
+                <stop offset="100%" stopColor="#D4B26A" />
               </linearGradient>
             </defs>
           </svg>
 
-          <div className='w-14 h-14 rounded-full bg-primary flex justify-center items-center shadow-card relative z-10 border border-[#915EFF]/30 backdrop-blur-md group-hover:bg-tertiary transition-colors duration-300'>
-             <FaArrowUp className='text-[#915EFF] text-[22px] group-hover:text-white transition-colors duration-300' />
+          <div className='w-14 h-14 rounded-full bg-primary flex justify-center items-center shadow-card relative z-10 border border-[#B9974E]/30 backdrop-blur-md group-hover:bg-tertiary transition-colors duration-300'>
+             <FaArrowUp className='text-[#B9974E] text-[22px] group-hover:text-white transition-colors duration-300' />
           </div>
         </motion.div>
       )}

@@ -13,8 +13,8 @@
   height: 3px;
   margin-top: 14px;
   border-radius: 999px;
-  background: linear-gradient(90deg, #915eff 0%, #00cea8 100%);
-  box-shadow: 0 0 24px rgba(145, 94, 255, 0.45);
+  background: linear-gradient(90deg, #B9974E 0%, #5FA88A 100%);
+  box-shadow: 0 0 24px rgba(185, 151, 78, 0.45);
 }
 
 .projects-intro {
@@ -25,7 +25,7 @@
 
 .projects-intro p {
   max-width: 56rem;
-  color: #c9c5df;
+  color: #D5DDD8;
   font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: 400;
@@ -55,8 +55,8 @@
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 8px;
   background:
-    linear-gradient(180deg, rgba(21, 16, 48, 0.96) 0%, rgba(12, 9, 31, 0.98) 100%);
-  box-shadow: 0 24px 70px rgba(2, 4, 18, 0.45);
+    linear-gradient(180deg, rgba(17, 34, 28, 0.96) 0%, rgba(12, 9, 31, 0.98) 100%);
+  box-shadow: 0 24px 70px rgba(5, 12, 9, 0.45);
   transition:
     border-color 220ms ease,
     box-shadow 220ms ease,
@@ -69,7 +69,7 @@
   inset: 0;
   z-index: 0;
   background:
-    radial-gradient(circle at 15% 0%, rgba(145, 94, 255, 0.18), transparent 34%),
+    radial-gradient(circle at 15% 0%, rgba(185, 151, 78, 0.18), transparent 34%),
     radial-gradient(circle at 90% 12%, rgba(0, 206, 168, 0.12), transparent 30%);
   opacity: 0;
   transition: opacity 220ms ease;
@@ -82,8 +82,8 @@
 
 .project-card:hover,
 .project-card:focus-within {
-  border-color: rgba(145, 94, 255, 0.42);
-  box-shadow: 0 30px 90px rgba(2, 4, 18, 0.56), 0 0 0 1px rgba(145, 94, 255, 0.1);
+  border-color: rgba(185, 151, 78, 0.42);
+  box-shadow: 0 30px 90px rgba(5, 12, 9, 0.56), 0 0 0 1px rgba(185, 151, 78, 0.1);
 }
 
 .project-card:hover::before,
@@ -96,7 +96,7 @@
   aspect-ratio: 16 / 10;
   width: 100%;
   overflow: hidden;
-  background: #090325;
+  background: #08110E;
 }
 
 .project-image-wrap::after {
@@ -104,8 +104,8 @@
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(5, 8, 22, 0) 42%, rgba(5, 8, 22, 0.84) 100%),
-    linear-gradient(90deg, rgba(145, 94, 255, 0.22), rgba(0, 206, 168, 0.08));
+    linear-gradient(180deg, rgba(10, 20, 17, 0) 42%, rgba(10, 20, 17, 0.84) 100%),
+    linear-gradient(90deg, rgba(185, 151, 78, 0.22), rgba(0, 206, 168, 0.08));
   opacity: 0.72;
   pointer-events: none;
 }
@@ -161,7 +161,7 @@
 }
 
 .project-link:focus-visible {
-  box-shadow: 0 0 0 3px rgba(145, 94, 255, 0.32), 0 12px 28px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 0 3px rgba(185, 151, 78, 0.32), 0 12px 28px rgba(0, 0, 0, 0.35);
 }
 
 .project-link-icon {
@@ -176,7 +176,7 @@
   bottom: 7px;
   width: 9px;
   height: 9px;
-  color: #00cea8;
+  color: #5FA88A;
 }
 
 .project-tooltip {
@@ -187,7 +187,7 @@
   max-width: 140px;
   padding: 6px 9px;
   border-radius: 6px;
-  background: #050816;
+  background: #0A1411;
   color: #ffffff;
   font-family: "Orbitron", sans-serif;
   font-size: 10px;
@@ -231,12 +231,12 @@
 
 .project-title-icon {
   flex: 0 0 auto;
-  color: #915eff;
-  filter: drop-shadow(0 0 10px rgba(145, 94, 255, 0.38));
+  color: #B9974E;
+  filter: drop-shadow(0 0 10px rgba(185, 151, 78, 0.38));
 }
 
 .project-description {
-  color: #c9c5df;
+  color: #D5DDD8;
   font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -275,23 +275,23 @@
 }
 
 .project-tag.blue-text-gradient {
-  border-color: rgba(86, 204, 242, 0.24);
-  color: #79d8ff;
+  border-color: rgba(169, 205, 187, 0.24);
+  color: #A9CDBB;
 }
 
 .project-tag.green-text-gradient {
-  border-color: rgba(56, 239, 125, 0.24);
-  color: #70f0aa;
+  border-color: rgba(95, 168, 138, 0.24);
+  color: #5FA88A;
 }
 
 .project-tag.pink-text-gradient {
-  border-color: rgba(252, 103, 103, 0.26);
-  color: #ff8fbd;
+  border-color: rgba(212, 178, 106, 0.26);
+  color: #D4B26A;
 }
 
 .project-tag.orange-text-gradient {
-  border-color: rgba(245, 175, 25, 0.28);
-  color: #ffc870;
+  border-color: rgba(212, 178, 106, 0.28);
+  color: #C9A85C;
 }
 
 @media (max-width: 768px) {

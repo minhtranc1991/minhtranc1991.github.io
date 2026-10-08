@@ -28,8 +28,8 @@ const Greeting = () => {
             whileHover={{ scale: 1.05 }}
             className="fixed top-[200px] right-8 z-10 hidden sm:block"
         >
-            <div className="relative group p-[2px] rounded-2xl overflow-hidden bg-gradient-to-r from-[#915eff] to-[#804dee] shadow-2xl">
-                <div className="bg-[#050816]/90 backdrop-blur-xl rounded-[14px] px-6 py-4 flex items-center gap-4 border border-white/10 group-hover:bg-[#050816]/70 transition-all duration-300">
+            <div className="relative group p-[2px] rounded-2xl overflow-hidden bg-gradient-to-r from-[#B9974E] to-[#8F7338] shadow-2xl">
+                <div className="bg-[#0A1411]/90 backdrop-blur-xl rounded-[14px] px-6 py-4 flex items-center gap-4 border border-white/10 group-hover:bg-[#0A1411]/70 transition-all duration-300">
                     <div className="text-3xl animate-bounce-slow">
                         {icon}
                     </div>
@@ -41,7 +41,7 @@ const Greeting = () => {
                     </div>
                 </div>
                 {/* Glow effect */}
-                <div className="absolute -inset-1 bg-gradient-to-r from-[#915eff] to-[#804dee] rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
+                <div className="absolute -inset-1 bg-gradient-to-r from-[#B9974E] to-[#8F7338] rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
             </div>
         </motion.div>
     );

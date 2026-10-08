@@ -29,7 +29,7 @@
 
 /* --- Typography --- */
 .text-white     { color: #ffffff; }
-.text-secondary { color: #aaa6c3; }
+.text-secondary { color: #98A89F; }
 .text-white-100 { color: #f3f3f3; }
 .text-center    { text-align: center; }
 .uppercase      { text-transform: uppercase; }
@@ -55,11 +55,11 @@
 .list-none       { list-style: none; padding: 0; margin: 0; }
 
 /* --- Colors & BG --- */
-.bg-\[\#915eff\]     { background-color: #915eff; }
-.bg-\[\#915eff1a\]   { background-color: rgba(145,94,255,0.1); }
-.text-\[\#915eff\]   { color: #915eff; }
-.border-\[\#915eff33\] { border-color: rgba(145,94,255,0.2); }
-.text-\[\#aaa6c3\]   { color: #aaa6c3; }
+.bg-\[\#B9974E\]     { background-color: #B9974E; }
+.bg-\[\#B9974E1a\]   { background-color: rgba(185, 151, 78,0.1); }
+.text-\[\#B9974E\]   { color: #B9974E; }
+.border-\[\#B9974E33\] { border-color: rgba(185, 151, 78,0.2); }
+.text-\[\#98A89F\]   { color: #98A89F; }
 
 /* --- Border --- */
 .border           { border-width: 1px; border-style: solid; }

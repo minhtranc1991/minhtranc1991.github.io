@@ -60,7 +60,7 @@ const experiences = [
     title: "Quantitative Trader",
     company_name: "The20",
     icon: FaBriefcase,
-    iconBg: "#383E56",
+    iconBg: "#143C31",
     date: "2024 - Present",
     skills: ["Market Making", "Python", "Redis", "Risk"],
     points: [

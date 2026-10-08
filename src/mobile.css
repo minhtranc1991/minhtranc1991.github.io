@@ -39,7 +39,7 @@ a, button, [role="button"] {
   /* On tablets, the library still uses two-column layout.
      Ensure icons are properly sized but don't override their positioning. */
   .vertical-timeline-element-icon {
-    box-shadow: 0 0 0 3px rgba(145, 94, 255, 0.3) !important;
+    box-shadow: 0 0 0 3px rgba(185, 151, 78, 0.3) !important;
   }
 }
 
@@ -91,7 +91,7 @@ a, button, [role="button"] {
     left: 0      !important;
     margin-left: 0 !important;
     top: 0 !important;
-    box-shadow: 0 0 0 3px rgba(145,94,255,0.35) !important;
+    box-shadow: 0 0 0 3px rgba(185, 151, 78,0.35) !important;
   }
 
   /* Icon image inside the circle */
@@ -114,7 +114,7 @@ a, button, [role="button"] {
     left: -7px !important;
     right: auto !important;
     border-left-width: 0   !important;
-    border-right: 7px solid rgba(29, 24, 54, 0.9) !important;
+    border-right: 7px solid rgba(17, 34, 28, 0.9) !important;
   }
 
   /* Date appears below the card on mobile */

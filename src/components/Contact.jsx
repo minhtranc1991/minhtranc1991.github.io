@@ -138,7 +138,7 @@ const Contact = () => {
               inputStyle={{
                 width: '100%',
                 height: '58px',
-                backgroundColor: '#151030',
+                backgroundColor: '#11221C',
                 border: 'none',
                 borderRadius: '0.5rem',
                 color: 'white',
@@ -147,15 +147,15 @@ const Contact = () => {
                 fontWeight: '500'
               }}
               buttonStyle={{
-                backgroundColor: '#151030',
+                backgroundColor: '#11221C',
                 border: 'none',
                 borderRadius: '0.5rem 0 0 0.5rem',
                 paddingLeft: '5px'
               }}
               dropdownStyle={{
-                backgroundColor: '#151030',
+                backgroundColor: '#11221C',
                 color: 'white',
-                border: '1px solid #aaa6c3'
+                border: '1px solid #98A89F'
               }}
               containerStyle={{
                 width: '100%',

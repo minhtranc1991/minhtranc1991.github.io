@@ -24,7 +24,7 @@ const ServiceCard = ({ index, title, icon: Icon }) => (
         }}
         className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
-        <Icon className='w-16 h-16 text-[#915eff]' aria-hidden='true' />
+        <Icon className='w-16 h-16 text-[#B9974E]' aria-hidden='true' />
 
         <h3 className='text-white text-[20px] font-bold text-center font-["Oswald"] tracking-wide'>
           {title}
@@ -47,11 +47,11 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='m-[6px] p-[8px] text-secondary text-[17px] max-w-3xl leading-[30px] font-["Inter"] font-normal'
         >
-          I'm a <strong className="font-['Orbitron'] text-[#915eff]">quantitative trader</strong> focused on
-          crypto <strong className="font-['Orbitron'] text-[#915eff]">market making</strong>, inventory hedging and
+          I'm a <strong className="font-['Orbitron'] text-[#B9974E]">quantitative trader</strong> focused on
+          crypto <strong className="font-['Orbitron'] text-[#B9974E]">market making</strong>, inventory hedging and
           systematic strategies across spot and perpetual futures. I design and run trading systems in
-          <strong className="font-['Orbitron'] text-[#915eff]"> Python</strong> and
-          <strong className="font-['Orbitron'] text-[#915eff]"> Redis</strong>, validate ideas with
+          <strong className="font-['Orbitron'] text-[#B9974E]"> Python</strong> and
+          <strong className="font-['Orbitron'] text-[#B9974E]"> Redis</strong>, validate ideas with
           backtests, and train teams and interns in quant trading.
           <br />
           <span className="text-white font-['Sacramento'] text-[32px] block mt-4 opacity-80 rotate-[-2deg]">
@@ -68,7 +68,7 @@ const About = () => {
               alt='profile'
               className='w-full h-full object-cover rounded-full border-4 border-white/10 shadow-card'
             />
-            <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-[#915eff] to-transparent opacity-30" />
+            <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-[#B9974E] to-transparent opacity-30" />
           </div>
         </motion.div>
       </div>

@@ -16,7 +16,7 @@ const Computers = ({ isMobile }) => {
 
       {/* Hemisphere light — sky (cool blue) above, warm earth bounce below */}
       <hemisphereLight
-        skyColor="#b0cde8"
+        skyColor="#B4D6C4"
         groundColor="#d4956a"
         intensity={0.55}
       />
@@ -37,14 +37,14 @@ const Computers = ({ isMobile }) => {
       <directionalLight
         position={[10, 8, -4]}
         intensity={0.65}
-        color="#cce0ff"
+        color="#D6EADF"
       />
 
       {/* Rim / back light — cool blue edge to separate model from background */}
       <directionalLight
         position={[2, -4, -12]}
         intensity={0.85}
-        color="#6ea8d6"
+        color="#6FB59A"
       />
 
       {/* Desk/screen glow — subtle warm point near the monitor */}
@@ -56,11 +56,11 @@ const Computers = ({ isMobile }) => {
         decay={2}
       />
 
-      {/* Subtle purple accent — matches the site's #915eff brand colour */}
+      {/* Subtle gold accent — matches the site's #B9974E brand colour */}
       <pointLight
         position={[-4, 2, 3]}
         intensity={0.35}
-        color="#915eff"
+        color="#B9974E"
         distance={12}
         decay={2}
       />

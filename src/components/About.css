@@ -53,8 +53,8 @@
 
 /* --- General typography --- */
 .text-white     { color: #ffffff; }
-.text-secondary { color: #aaa6c3; }
-.text-\[\#915eff\] { color: #915eff; }
+.text-secondary { color: #98A89F; }
+.text-\[\#B9974E\] { color: #B9974E; }
 .text-center    { text-align: center; }
 .text-\[17px\]  { font-size: 17px; }
 .text-\[20px\]  { font-size: 20px; }
@@ -80,8 +80,8 @@
 .font-\[\'Oswald\'\]           { font-family: 'Oswald', sans-serif; }
 
 /* --- Colors --- */
-.bg-tertiary    { background-color: #151030; }
-.shadow-card    { box-shadow: 0px 35px 120px -15px #211e35; }
+.bg-tertiary    { background-color: #11221C; }
+.shadow-card    { box-shadow: 0px 35px 120px -15px #0B1A15; }
 .border-white\/10 { border-color: rgba(255,255,255,0.1); }
 .border-4       { border-width: 4px; border-style: solid; }
 .rounded-full   { border-radius: 9999px; }
@@ -92,15 +92,15 @@
 
 /* --- Gradients --- */
 .green-pink-gradient {
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: linear-gradient(90.13deg, #5FA88A 1.9%, #D4B26A 97.5%);
 }
 
 /* Gradient direction */
 .bg-gradient-to-tr { background-image: linear-gradient(to top right, var(--tw-gradient-stops)); }
 
 /* Gradient colour stops for the portrait overlay */
-.from-\[\#915eff\] {
-  --tw-gradient-from: #915eff;
+.from-\[\#B9974E\] {
+  --tw-gradient-from: #B9974E;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, transparent);
 }
 .to-transparent {
